@@ -1,0 +1,253 @@
+[
+  {
+    "id": "pride-and-prejudice",
+    "name": "Pride and Prejudice",
+    "price": 9.99,
+    "shortDescription": "Jane Austen's classic novel of manners, marriage, and wit.",
+    "longDescription": "Set in Georgian England, Pride and Prejudice follows Elizabeth Bennet as she navigates issues of manners, upbringing, morality, and marriage in the landed gentry society of early 19th-century England. Its wit and social commentary have made it one of the most beloved novels in English literature.",
+    "category": "Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg",
+    "reviews": [
+      {"reviewerName": "Alice M.", "rating": 5, "comment": "Timeless and witty.", "date": "2024-02-11"},
+      {"reviewerName": "Ben T.", "rating": 4, "comment": "A classic for good reason.", "date": "2024-05-03"}
+    ]
+  },
+  {
+    "id": "1984",
+    "name": "1984",
+    "price": 8.99,
+    "shortDescription": "George Orwell's dystopian vision of a totalitarian future.",
+    "longDescription": "In a world of perpetual war, omnipresent surveillance, and constant public manipulation, 1984 follows Winston Smith's struggle against Big Brother's regime. Orwell's chilling vision remains a defining work of 20th-century fiction.",
+    "category": "Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg",
+    "reviews": [
+      {"reviewerName": "Priya K.", "rating": 5, "comment": "More relevant every year.", "date": "2024-01-20"},
+      {"reviewerName": "Marco D.", "rating": 5, "comment": "Chilling and unforgettable.", "date": "2023-09-14"}
+    ]
+  },
+  {
+    "id": "the-great-gatsby",
+    "name": "The Great Gatsby",
+    "price": 10.49,
+    "shortDescription": "F. Scott Fitzgerald's portrait of the Jazz Age and the American Dream.",
+    "longDescription": "Narrated by Nick Carraway, The Great Gatsby explores themes of decadence, idealism, resistance to change, and excess through the mysterious millionaire Jay Gatsby and his obsession with Daisy Buchanan.",
+    "category": "Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg",
+    "reviews": [
+      {"reviewerName": "Elena R.", "rating": 4, "comment": "Beautifully written prose.", "date": "2024-03-28"}
+    ]
+  },
+  {
+    "id": "moby-dick",
+    "name": "Moby Dick",
+    "price": 11.99,
+    "shortDescription": "Herman Melville's epic tale of obsession at sea.",
+    "longDescription": "Moby Dick follows the voyage of the whaling ship Pequod, commanded by Captain Ahab, who leads a monomaniacal quest to kill the white whale that took his leg. A sprawling meditation on fate, obsession, and nature.",
+    "category": "Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780142437247-M.jpg",
+    "reviews": [
+      {"reviewerName": "Owen F.", "rating": 4, "comment": "Dense but rewarding.", "date": "2023-12-05"},
+      {"reviewerName": "Hana S.", "rating": 3, "comment": "Long, but the whaling chapters are fascinating.", "date": "2024-04-17"}
+    ]
+  },
+  {
+    "id": "sapiens",
+    "name": "Sapiens: A Brief History of Humankind",
+    "price": 18.99,
+    "shortDescription": "Yuval Noah Harari's sweeping history of the human species.",
+    "longDescription": "Sapiens surveys the history of humankind from the emergence of Homo sapiens in Africa to the political and technological revolutions of today, exploring how biology and history have defined us.",
+    "category": "Non-Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg",
+    "reviews": [
+      {"reviewerName": "Tariq A.", "rating": 5, "comment": "Mind-expanding from start to finish.", "date": "2024-01-09"},
+      {"reviewerName": "Grace L.", "rating": 4, "comment": "Ambitious and thought-provoking.", "date": "2023-10-22"}
+    ]
+  },
+  {
+    "id": "thinking-fast-and-slow",
+    "name": "Thinking, Fast and Slow",
+    "price": 17.99,
+    "shortDescription": "Daniel Kahneman's landmark exploration of the two systems that drive our thinking.",
+    "longDescription": "Kahneman, winner of the Nobel Prize in Economics, explains the two systems that drive the way we think: System 1, fast and intuitive, and System 2, slower and more deliberate, revealing the biases baked into our judgment.",
+    "category": "Non-Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780374533557-M.jpg",
+    "reviews": [
+      {"reviewerName": "Nadia P.", "rating": 5, "comment": "Changed how I make decisions.", "date": "2024-02-27"}
+    ]
+  },
+  {
+    "id": "educated",
+    "name": "Educated",
+    "price": 15.99,
+    "shortDescription": "Tara Westover's memoir of self-invention through education.",
+    "longDescription": "Educated is the story of a woman who grows up in a survivalist family in rural Idaho and, without ever setting foot in a classroom, goes on to earn a PhD from Cambridge University.",
+    "category": "Non-Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780399590504-M.jpg",
+    "reviews": [
+      {"reviewerName": "Farah N.", "rating": 5, "comment": "Powerful and unforgettable memoir.", "date": "2023-11-30"},
+      {"reviewerName": "Colin W.", "rating": 5, "comment": "Couldn't put it down.", "date": "2024-06-02"}
+    ]
+  },
+  {
+    "id": "a-brief-history-of-time",
+    "name": "A Brief History of Time",
+    "price": 13.99,
+    "shortDescription": "Stephen Hawking's classic introduction to cosmology.",
+    "longDescription": "Stephen Hawking explains the origin and fate of the universe, from the Big Bang to black holes, making complex cosmology accessible to a general audience.",
+    "category": "Non-Fiction",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780553380163-M.jpg",
+    "reviews": [
+      {"reviewerName": "Ibrahim S.", "rating": 4, "comment": "Accessible introduction to big ideas.", "date": "2023-08-19"}
+    ]
+  },
+  {
+    "id": "clean-code",
+    "name": "Clean Code",
+    "price": 34.99,
+    "shortDescription": "Robert C. Martin's guide to writing maintainable software.",
+    "longDescription": "Clean Code presents a comprehensive framework of best practices, principles, and heuristics for writing readable, maintainable code, with case studies of cleaning up bad code.",
+    "category": "Programming",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg",
+    "reviews": [
+      {"reviewerName": "Dana R.", "rating": 4, "comment": "Dated examples but the principles hold up.", "date": "2023-11-02"},
+      {"reviewerName": "Sam O.", "rating": 5, "comment": "Changed how I write functions.", "date": "2024-03-15"}
+    ]
+  },
+  {
+    "id": "the-pragmatic-programmer",
+    "name": "The Pragmatic Programmer",
+    "price": 39.99,
+    "shortDescription": "Hunt and Thomas's timeless guide to software craftsmanship.",
+    "longDescription": "The Pragmatic Programmer covers topics ranging from personal responsibility and career development to architectural techniques for keeping code flexible and easy to adapt and reuse.",
+    "category": "Programming",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780135957059-M.jpg",
+    "reviews": [
+      {"reviewerName": "Yuki T.", "rating": 5, "comment": "Every developer should read this.", "date": "2024-02-08"}
+    ]
+  },
+  {
+    "id": "design-patterns",
+    "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "price": 44.99,
+    "shortDescription": "The Gang of Four's foundational catalog of software design patterns.",
+    "longDescription": "This book introduces 23 classic design patterns for object-oriented software design, providing a shared vocabulary for solving recurring design problems.",
+    "category": "Programming",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780201633610-M.jpg",
+    "reviews": [
+      {"reviewerName": "Peter G.", "rating": 4, "comment": "Dense reference, still essential.", "date": "2023-07-21"},
+      {"reviewerName": "Lucia V.", "rating": 4, "comment": "A staple of software engineering.", "date": "2024-04-30"}
+    ]
+  },
+  {
+    "id": "refactoring",
+    "name": "Refactoring: Improving the Design of Existing Code",
+    "price": 42.99,
+    "shortDescription": "Martin Fowler's catalog of techniques for improving code without changing behavior.",
+    "longDescription": "Refactoring provides a catalog of proven techniques for improving the design of existing code, teaching developers how to recognize code smells and fix them incrementally.",
+    "category": "Programming",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780134757599-M.jpg",
+    "reviews": [
+      {"reviewerName": "Wesley H.", "rating": 5, "comment": "The refactoring catalog alone is worth it.", "date": "2024-01-14"}
+    ]
+  },
+  {
+    "id": "the-lean-startup",
+    "name": "The Lean Startup",
+    "price": 16.99,
+    "shortDescription": "Eric Ries's method for building successful startups through validated learning.",
+    "longDescription": "The Lean Startup introduces a scientific approach to creating and managing startups, using validated learning, rapid experimentation, and iterative product releases to shorten development cycles.",
+    "category": "Business",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-M.jpg",
+    "reviews": [
+      {"reviewerName": "Renee C.", "rating": 4, "comment": "Reshaped how I think about MVPs.", "date": "2023-09-27"},
+      {"reviewerName": "Ahmed B.", "rating": 5, "comment": "Practical and actionable framework.", "date": "2024-05-19"}
+    ]
+  },
+  {
+    "id": "good-to-great",
+    "name": "Good to Great",
+    "price": 19.99,
+    "shortDescription": "Jim Collins's research into what makes companies achieve lasting greatness.",
+    "longDescription": "Good to Great presents the findings of a five-year research project identifying the factors that allowed some companies to make the leap from good performance to great, sustained results.",
+    "category": "Business",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780066620992-M.jpg",
+    "reviews": [
+      {"reviewerName": "Julia M.", "rating": 4, "comment": "Solid research-backed insights.", "date": "2023-12-11"}
+    ]
+  },
+  {
+    "id": "zero-to-one",
+    "name": "Zero to One",
+    "price": 15.49,
+    "shortDescription": "Peter Thiel's notes on startups and building the future.",
+    "longDescription": "Zero to One presents Peter Thiel's unconventional thinking on how to build companies that create new things, moving the world from 0 to 1 rather than copying existing ideas.",
+    "category": "Business",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780804139298-M.jpg",
+    "reviews": [
+      {"reviewerName": "Victor N.", "rating": 4, "comment": "Contrarian and thought-provoking.", "date": "2024-03-02"},
+      {"reviewerName": "Sofia K.", "rating": 5, "comment": "Short but packed with ideas.", "date": "2024-06-21"}
+    ]
+  },
+  {
+    "id": "the-innovators-dilemma",
+    "name": "The Innovator's Dilemma",
+    "price": 21.99,
+    "shortDescription": "Clayton Christensen's theory of disruptive innovation.",
+    "longDescription": "The Innovator's Dilemma explains why successful companies can fail by doing everything 'right,' and introduces the theory of disruptive technologies that reshape entire industries.",
+    "category": "Business",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9781633691780-M.jpg",
+    "reviews": [
+      {"reviewerName": "Derek P.", "rating": 4, "comment": "A must-read for product strategy.", "date": "2023-10-08"}
+    ]
+  },
+  {
+    "id": "atomic-habits",
+    "name": "Atomic Habits",
+    "price": 16.99,
+    "shortDescription": "James Clear's practical guide to building good habits.",
+    "longDescription": "Atomic Habits offers a proven framework for improving every day, showing how tiny changes can deliver remarkable results through the compounding of small habits.",
+    "category": "Self-Help",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg",
+    "reviews": [
+      {"reviewerName": "Wendy L.", "rating": 5, "comment": "Actionable and well-structured.", "date": "2024-04-09"},
+      {"reviewerName": "Kevin J.", "rating": 5, "comment": "Genuinely changed my daily routine.", "date": "2024-01-25"}
+    ]
+  },
+  {
+    "id": "the-7-habits",
+    "name": "The 7 Habits of Highly Effective People",
+    "price": 14.99,
+    "shortDescription": "Stephen Covey's classic framework for personal and professional effectiveness.",
+    "longDescription": "The 7 Habits presents a principle-centered approach to solving personal and professional problems, built around habits like being proactive and beginning with the end in mind.",
+    "category": "Self-Help",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9781982137274-M.jpg",
+    "reviews": [
+      {"reviewerName": "Monica T.", "rating": 4, "comment": "A foundational read, still holds up.", "date": "2023-08-30"}
+    ]
+  },
+  {
+    "id": "mindset",
+    "name": "Mindset: The New Psychology of Success",
+    "price": 13.49,
+    "shortDescription": "Carol Dweck's research on the power of the growth mindset.",
+    "longDescription": "Mindset reveals how the view we adopt for ourselves profoundly affects the way we lead our lives, distinguishing between a 'fixed' and a 'growth' mindset and how each shapes success.",
+    "category": "Self-Help",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9780345472328-M.jpg",
+    "reviews": [
+      {"reviewerName": "Ravi D.", "rating": 5, "comment": "A perspective shift I needed.", "date": "2024-02-17"},
+      {"reviewerName": "Chloe B.", "rating": 4, "comment": "Simple idea, big impact.", "date": "2023-11-19"}
+    ]
+  },
+  {
+    "id": "deep-work",
+    "name": "Deep Work",
+    "price": 15.99,
+    "shortDescription": "Cal Newport's argument for focused success in a distracted world.",
+    "longDescription": "Deep Work argues that the ability to focus without distraction is becoming increasingly rare and valuable, and provides a rigorous training regimen for cultivating a deep work habit.",
+    "category": "Self-Help",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9781455586691-M.jpg",
+    "reviews": [
+      {"reviewerName": "Nora E.", "rating": 5, "comment": "Directly improved my focus at work.", "date": "2024-05-11"}
+    ]
+  }
+]
