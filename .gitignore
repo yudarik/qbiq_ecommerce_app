@@ -1,19 +1,19 @@
 # Python
-backend/.venv/
-backend/__pycache__/
-backend/**/__pycache__/
-backend/*.pyc
-backend/.pytest_cache/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
 
 # Node
-frontend/node_modules/
-frontend/dist/
+node_modules/
+dist/
 
 # Env files
 .env
-backend/.env
-frontend/.env
-frontend/.env.local
+.env.local
+.env copy.example
 
 # macOS
 .DS_Store
