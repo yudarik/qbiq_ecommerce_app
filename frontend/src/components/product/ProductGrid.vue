@@ -14,7 +14,7 @@ defineProps<{
     role="list"
     aria-label="Products"
   >
-    <div v-for="product in products" :key="product.id" role="listitem">
+    <div v-for="product in products" :key="product.id" role="listitem" class="h-full">
       <ProductCard :product="product" />
     </div>
   </div>

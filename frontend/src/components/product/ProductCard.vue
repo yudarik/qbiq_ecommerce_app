@@ -11,13 +11,13 @@ function formatPrice(price: number): string {
 </script>
 
 <template>
-  <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100">
+  <article class="h-full flex flex-col bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100">
     <router-link
       :to="`/products/${product.id}`"
-      class="block focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+      class="flex flex-col flex-1 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
       :aria-label="`View details for ${product.name}`"
     >
-      <div class="aspect-[3/4] overflow-hidden bg-gray-100">
+      <div class="aspect-[3/4] shrink-0 overflow-hidden bg-gray-100">
         <img
           :src="product.thumbnailUrl"
           :alt="`Cover of ${product.name}`"
@@ -26,13 +26,13 @@ function formatPrice(price: number): string {
           @error="($event.target as HTMLImageElement).src = 'https://via.placeholder.com/200x280?text=No+Cover'"
         />
       </div>
-      <div class="p-4">
-        <span class="inline-block text-xs font-medium text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded mb-2">
+      <div class="flex flex-col flex-1 p-4">
+        <span class="self-start text-xs font-medium text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded mb-2">
           {{ product.category }}
         </span>
-        <h2 class="text-sm font-semibold text-gray-900 line-clamp-2 mb-1">{{ product.name }}</h2>
-        <p class="text-xs text-gray-500 line-clamp-2 mb-3">{{ product.shortDescription }}</p>
-        <p class="text-lg font-bold text-indigo-600">{{ formatPrice(product.price) }}</p>
+        <h2 class="min-h-[2.5rem] text-sm font-semibold text-gray-900 line-clamp-2 mb-1">{{ product.name }}</h2>
+        <p class="min-h-[2rem] text-xs text-gray-500 line-clamp-2 mb-3">{{ product.shortDescription }}</p>
+        <p class="mt-auto text-lg font-bold text-indigo-600">{{ formatPrice(product.price) }}</p>
       </div>
     </router-link>
   </article>
