@@ -9,12 +9,10 @@ services:
 
   backend:
     build: ./backend
-    ports:
-      - "8000:8000"
     environment:
       REDIS_URL: redis://redis:6379/0
       CACHE_TTL_SECONDS: "60"
-      CORS_ORIGINS: http://localhost:5173
+      CORS_ORIGINS: http://localhost
     depends_on:
       redis:
         condition: service_healthy
@@ -23,10 +21,9 @@ services:
     build:
       context: ./frontend
       args:
-        # VITE_API_BASE_URL must be the URL the browser can reach —
-        # use the backend's host port, not the internal Docker service name.
-        VITE_API_BASE_URL: http://localhost:8000/api
+        # Relative path — the browser sends /api/* to nginx, which proxies to backend internally.
+        VITE_API_BASE_URL: /api
     ports:
-      - "5173:80"
+      - "80:80"
     depends_on:
       - backend
